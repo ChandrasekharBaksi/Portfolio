@@ -340,6 +340,11 @@ font-size: 20px
 }
 .about-text .tab-content{
 	padding: 40px 0;
+	display: none;
+}
+
+.about-text .tab-content.active{
+	display: block;
 }
 .about-text .timeline-item{
 	margin-bottom: 30px;
@@ -355,6 +360,7 @@ font-size: 20px
 	background-color: var(--main-color);
 	left: 0;
 	top: 16px;
+	border-radius: 50%;
 }
 .about-text .timeline-item:last-child{
 	margin-bottom: 0;
